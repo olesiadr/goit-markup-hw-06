@@ -320,6 +320,10 @@ img {
   align-items: center;
 }
 
+.close:hover,
+.close:focus {
+  fill: var(--accent-color);
+}
 .form {
   /* display: flex;
   flex-direction: column;
@@ -434,6 +438,7 @@ img {
   color: var(--primary-text-color);
   display: flex;
   align-items: center;
+  margin-left: 12px;
 }
 
 .checkbox-link {
